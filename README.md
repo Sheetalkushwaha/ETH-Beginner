@@ -1,8 +1,8 @@
-#Token Supply
+# Token Supply
 This Solidity program is a simple demo code for minting and burning token. The purpose of the program is to demonstrate the mechanism of minting , burning and supply of the tokens.
-##Description
+## Description
 The computer language Solidity, which is used to create smart contracts on the Ethereum network, is used to write this contract. The four public state variables in this contract are balances, total supply, token name, and token abbrv. The mapping of a sender to its balance is called a balance. following BurnTokens and mintTokens are the two functions. Two parameters are required by mintTokens: address and value. The value will be added to the sender's balance and token supply upon calling mintToken. The next step in burnTokens is to provide the address and value to be burned. A conditional statement is then used to determine whether or not the tokens to be burned are truly present in the sender's balance. If the requirement is met, the amount will be subtracted from the balance of address
-###Getting Started & Executing program
+### Getting Started & Executing program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyToken.sol). Copy and paste the following code into the file:
