@@ -59,4 +59,4 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it. Click on the "MyToken" contract in the left-hand sidebar, and then check the token Abbrev, tokenName, total supply by clicking them. By passing address and token value in mintToken and clicking it will call the mintTokens function and same will be with burnTokens.
 #### Authors
-Sheetal Kushwaha ( )
+Sheetal Kushwaha (https://www.linkedin.com/in/sheetal-kushwaha-a8566a254/)
