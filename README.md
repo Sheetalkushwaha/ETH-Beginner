@@ -6,6 +6,7 @@ The computer language Solidity, which is used to create smart contracts on the E
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyToken.sol). Copy and paste the following code into the file:
+```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
@@ -47,7 +48,15 @@ contract MyToken {
         }
     }
   /*
-    few addresses for testing purpose:
+few addresses for testing purpose:
        0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
-    */
+*/
 }
+```
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile MyToken.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
+
+Once the contract is deployed, you can interact with it. Click on the "MyToken" contract in the left-hand sidebar, and then check the token Abbrev, tokenName, total supply by clicking them. By passing address and token value in mintToken and clicking it will call the mintTokens function and same will be with burnTokens.
+#### Authors
+Sheetal Kushwaha ( )
